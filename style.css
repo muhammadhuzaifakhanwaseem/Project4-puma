@@ -7,7 +7,10 @@
         background-color: rgba(24,24,24); 
     }
 .fs-7{
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
+}
+.fs-8{
+    font-size: 0.8rem !important;
 }
 .sec1{
     background-image: url(./download.jpg);
@@ -124,14 +127,14 @@
     box-shadow: none !important;
 }
 .mcon1{
-    padding-bottom: 14rem;
+    padding-bottom: 12rem;
 }
 .mcon2{
     margin-top: 10rem;
 }
 .mcon3{
-    padding-top: 16rem;
-    padding-bottom: 14rem;
+    padding-top: 15rem;
+    padding-bottom: 8rem;
 }
 .mcon4{
     margin-top: 15rem;
@@ -196,13 +199,13 @@
    .bg3{
     position: relative;
     background-position: center center;
-    height: 200px;
+    height: 360px;
    }
    .mcon1{
     padding-bottom: 0;
 }
 .mcon3{
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 0;
 }
 .mcon4{
@@ -213,5 +216,12 @@
 }
 .gtg{
     height: 250px !important;
+}
+.justify-content-sm-start-my{
+justify-content: flex-start !important;
+}
+.croimg{
+    width: 100%;
+    height: 15rem !important;
 }
 }
