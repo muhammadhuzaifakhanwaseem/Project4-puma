@@ -113,9 +113,7 @@ background-color: rgba(138, 115, 80);
     display: none;
 }
 
-.float-sm-left {
-    float: left !important;
-}
+
 
 .bg-dark-my {
     background-color: black;
@@ -172,7 +170,9 @@ background-color: rgba(138, 115, 80);
     .hide {
         display: none;
     }
-
+    .float-sm-left {
+        float: left !important;
+    }
     .silder-div {
         flex: 100%;
         width: 100%;
